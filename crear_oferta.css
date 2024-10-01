@@ -1,0 +1,96 @@
+html,body 
+    {
+    background-image: linear-gradient(rgba(10, 3, 112, 0.925),rgba(12, 185, 228, 0.767));
+    }
+/* contenedor del formulario */
+.formulario
+    {
+    position: relative;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    height: 50%;
+    width: 25%;
+    left: 36%;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(167, 178, 179, 0.925),rgba(78, 76, 71, 0.767));
+    }
+/* ingresos de datos del formulario */
+input
+    {
+     text-align: center;
+     font-size: 25px;
+     background-color: rgb(255, 255, 255);
+     border-radius: 10px;
+    }
+.caracteristicas,.funciones
+    {
+     width:300px ;
+     height:100px ;
+     border-radius: 10px;
+    }
+/* botones del formulario */
+.eliminar
+    {
+    background-color: rgb(168, 0, 0);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-style:italic;
+    border-radius: 10px;
+    }
+.eliminar:hover
+    {
+    background-color: rgb(255, 0, 0);
+    }
+/* botones del formulario */
+.enviar
+    {
+    background-color: rgb(0, 60, 255);
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-style:italic;
+    border-radius: 10px;
+    }
+.enviar:hover
+    {
+    background-color: rgb(45, 94, 255);
+    color: rgb(255, 255, 255);
+    
+    }
+/* selector de ciudad */
+.ciudad_residencia
+    {
+    background-color: rgb(255, 255, 255);
+     width:150px ;
+     height:35px ;
+     text-align: center;
+     border-radius: 10px;
+    }
+/* areas de texto */
+textarea
+    {
+    background-color: rgb(255, 255, 255);
+    }
+.titulo
+    {
+     font-style: oblique; 
+     font-size: 50px;  
+     position: relative;
+     text-align: center;
+     color: rgb(11, 12, 12);
+    }
+.volver
+    {
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding: 0;
+     font-size: 30px;
+     background-color: rgb(93, 255, 179);
+     color: black;
+    }
+.volver:hover
+    {
+    color: red;
+    }
+

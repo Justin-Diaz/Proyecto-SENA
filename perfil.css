@@ -1,0 +1,83 @@
+html,body
+    {
+    background-image: linear-gradient(rgba(10, 3, 112, 0.925),rgba(12, 185, 228, 0.767));
+    color: black;
+    }
+/* perfil del usuario */
+.datos
+    {
+     position: relative;
+     left: 29%;
+     text-align: center;
+     width: 40%;
+     background-color: rgb(150, 150, 150);
+     border: 3px rgb(0, 0, 0) solid;
+    }
+/* formulario para editar los datos */
+.edicion
+    {
+     position: absolute;
+     font-size: 30px;
+     left: 34%;
+     top: 50px;
+     border: 3px black solid;
+     background-color: yellow;
+
+    }
+/* boton para modificar el perfil */
+.editar
+    {
+    background-color: rgb(231, 250, 60);
+     font-size: 35px;
+     font-style:italic;
+    }
+.editar:hover
+    {
+    background-color: rgb(138, 253, 43);
+    }
+/* boton para actualizar los datos */
+.btn-actualizar
+    {
+     position: relative;
+     font-size: 33px;
+     background-color: rgb(60, 60, 250);
+     text-align: center;
+     font-style:italic;
+     color: white;
+     left: 26%;
+    }
+.btn-actualizar:hover
+    {
+     background-color: rgb(111, 126, 255);
+     color: black;
+    }
+.volver
+    {
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding: 0;
+     font-size: 30px;
+     background-color: rgb(93, 255, 179);
+     color: black;
+    }
+.volver:hover
+    {
+    color: red;
+    }
+hr
+    {
+     border: 2px rgb(255, 0, 0) solid;
+    }
+h1
+    {
+     color: rgb(0, 0, 0);
+    }
+h2
+    {
+     color: black;
+    }
+input   
+    {
+     font-size: 20px;
+    }

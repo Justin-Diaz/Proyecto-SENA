@@ -1,0 +1,102 @@
+html, body 
+    {
+        background:url(imagenes/fonfo7.jpg);
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; 
+    }
+/* logo de la empresa */
+img.logo
+    {
+     position: absolute;
+     height:15%;
+     width:10%;
+     top: 5px;
+     border-radius: 15%;
+    }
+h1
+    {
+    font-style: oblique;
+    font-size: 70px;
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+    color: rgb(33, 196, 236);
+    z-index: 5;
+    }
+/* boton iniciar sesion*/
+button.login
+    {
+    font-style: oblique;
+     top: 0;
+     position: absolute;
+     width: 200px;
+     height:70px ;
+     background-color: #e6e8e3;
+     left: 1430px;
+     font-size: 20px;
+     z-index: 3;
+     border-radius: 10px;
+     border-color: rgb(1, 217, 255)
+    }
+button.login:hover
+    {
+     background-color: rgb(33, 196, 236);
+    }
+/* boton registrar */
+button.registrar
+    {
+    font-style: oblique;
+     top: 0;
+     position: absolute;
+     width:200px;
+     height:70px ;
+     background-color: #e6e8e3;
+     left: 1650px;
+     font-size: 20px;
+     z-index: 2;
+     border-radius: 10px;
+     border-color: rgb(1, 217, 255)
+     }
+button.registrar:hover
+     {
+      background-color: rgb(33, 196, 236);
+     }
+
+/* imagenes de presentacion */
+
+     #foto1 
+     {
+        position: relative;
+        margin: -6%;
+        border-radius: 30px;
+        border-color:aqua
+        
+        
+     }
+
+    .center {
+        display: flex;
+        margin-left: 170px;
+        margin-top: -10px;
+
+
+
+    }
+
+a.acerca
+    {
+     position: absolute;
+     font-size: 30px;
+     top:90%;
+    left: 43%;
+     z-index: 1;
+     color: rgb(243, 245, 247);
+    }
+
+    a.acerca:hover
+    {
+     background-color: rgb(33, 196, 236);
+    }
+

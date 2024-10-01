@@ -1,0 +1,55 @@
+html,body  
+    {
+     background-color: rgb(255, 255, 255);
+    }
+/* botones para actualizar datos y eliminar datos */
+.Editar,.Eliminar
+    {
+     font-size:25px;
+    }
+/* div de actualizacion de datos */
+.edicion
+    {
+    position: relative;
+    border: 2px rgb(44, 112, 168) solid;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 25%;
+    font-size: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    }
+/* casillas del formulario para actualizar los datos */
+input
+    {
+     font-size: 20px;
+     background-color: rgb(255, 255, 171);
+    }
+/* boton actualizar datos */
+.btn-actualizar
+    {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    background-color: green;
+    }
+.btn-actualizar:hover
+    {
+    background-color: rgb(202, 22, 22);
+    font-size: 25px;
+    }
+.volver
+    {
+     position: relative;
+     top: 0;
+     left: 0;
+     padding: 0;
+     font-size: 30px;
+     background-color: rgb(93, 255, 179);
+     color: black;
+    }
+.volver:hover
+    {
+    color: red;
+    }

@@ -1,0 +1,90 @@
+html,body 
+    {
+     /* background-color: rgb(255, 255, 255); */
+     background-image:linear-gradient(rgba(28, 103, 201,1) 40%,rgba(0, 255, 157,1));
+    }
+/* formulario en general */
+form.formulario
+    {
+     top: 50%;
+     left: 50%;
+     text-align: center;
+    }
+/* casillas del formulario */
+input
+    {
+     border: none;
+     /* border:2px;
+     border-style: solid;
+     border-color: black; */
+     width: 300px;
+     height: 30px;
+     font-size: 20px;
+     text-align:center;  
+    }
+/* opciones de opcion multiple del formulario */
+select
+    {
+     width: 300px;
+     height: 30px;
+     font-size: 20px;
+    }
+h1  
+/* encabezados de las casillas */
+    {
+     color: black;
+     font-size: 22px;
+     font-weight: bold;
+    }
+/* mensaje de error, falta la extencion libsodium para utilizar el algoritmo argon2 en la funcion hash */
+.error-ext-sodium
+    {
+     position: absolute;
+     left: 0;
+     font-size: 30px;
+     top: 0;
+     color: red;
+    }
+hr
+    {
+     text-align: center;
+     width: 15%;
+    }
+.enviar
+    {
+     background-color: rgb(0, 60, 255);
+     font-size: 20px;
+     color: rgb(255, 255, 255);
+     font-style:italic;
+     cursor: pointer;
+    }
+.enviar:hover
+    {
+    background-color: rgb(52, 99, 253);
+    }
+.eliminar
+    {
+     background-color: rgb(168, 0, 0);
+     font-size: 20px;
+     color: rgb(255, 255, 255);
+     font-style:italic;
+     cursor: pointer;
+    }
+.eliminar:hover
+    {
+     background-color: rgb(255, 0, 0);
+    }
+.volver
+    {
+     position: absolute;
+     top: 0;
+     right: 0;
+     padding: 0;
+     font-size: 30px;
+     background-color: rgb(93, 255, 179);
+     color: black;
+    }
+.volver:hover
+    {
+    color: red;
+    }

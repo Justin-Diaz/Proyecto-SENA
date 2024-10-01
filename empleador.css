@@ -1,0 +1,181 @@
+html,body 
+    {
+    background-image: linear-gradient(rgba(10, 3, 112, 0.925),rgba(12, 185, 228, 0.767));
+     border-radius: 10px;
+    }
+/* logo empresa */
+.logo
+    {
+    border-radius: 30px;
+    width: 15vh;
+    height:15vh;
+    }
+/* BARRA DE BUSQUEDA */
+#barra_navegacion
+    {
+        position: absolute;
+    right: 30%;
+     width: 800px;
+     height: 60px;
+     border:5px;
+     border-style: solid;
+     border-color:black;
+     font-size: 30px;
+    }
+/* BOTON BUSCAR */
+.boton_buscar
+    {
+    position: relative;
+    left: 16em;
+    border:5px;
+    border-style: solid;
+    border-color:black;
+    color:white;
+    background-color: blue;
+    width: 150px;
+    height: 6vh;
+    text-align: center;
+    font-size: 30px;
+    }
+.boton_buscar:hover
+    {
+     background-color: greenyellow;
+    }
+/* BOTON DESPLEGABLE */
+#boton_desplegable
+    {
+    width: 100%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    }
+#boton_desplegable:hover
+    {
+     background-color: gray;
+    }
+/* OPCION PERFIL */
+#opcion_desplegable
+    {
+     background-color: rgb(137, 141, 141);
+     text-align: center;
+     width: 100%;
+     height: 100%;
+     color: black;
+     font-size: 20px;
+    }
+#opcion_desplegable:hover
+    {
+    background-color: rgb(11, 214, 204);
+    }
+/* OPCION CERRAR SESION */
+#opcion_desplegable
+    {
+     top: 100%;
+     background-color: rgb(150, 156, 156);
+     text-align: center;
+     width: 100%;
+     height: 100%;
+     font-size: 20px;
+    }
+#opcion_desplegable:hover
+    {
+    background-color: rgb(11, 214, 204);
+    }
+#barra
+    {
+     top:0;
+    }
+/* Opciones del empleador  */
+.contenedor1,.contenedor2,.contenedor3
+    {
+     position: absolute;
+     background-image: linear-gradient(rgba(243, 243, 247, 0.925),rgba(135, 137, 138, 0.767));
+     width: 300px;
+     height: 300px;
+     border: rgb(153, 151, 151) 5px solid;
+     border-radius: 10px;
+     text-align: center;
+    }
+.contenedor1
+    {
+    top: 35%;
+    left: 17%;
+    }
+.contenedor2
+    {
+    top: 35%;
+    left: 42%;
+    }
+.contenedor3
+    {
+    top: 35%;
+    left: 67%;
+    }
+.btn-1,.btn-2
+    {
+    position: relative;
+    font-family: oblique;
+    top: 45%;
+    background-color: rgb(227, 231, 229);
+    border: rgb(194, 35, 35);
+    color: black;
+    font-size: 25px;
+    font-weight:bold;
+    }
+.btn-3
+    {
+    position: relative;
+    font-family: oblique;
+    top: 30%;
+    background-color: rgb(235, 239, 240);
+    border-radius: 0;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight:bold;
+    }
+.btn-1:hover,.btn-2:hover,.btn-3:hover
+    {
+    color:rgb(11, 43, 223)
+    }
+/* informacion de contacto */
+#contenedor
+    {
+     position: relative;
+     height: 10%;
+     width: 100%;
+     top: 72%;
+     background-color: rgb(95, 95, 95);
+    }
+h1
+    {
+    color: orange;
+     font-size: 25;
+     font-family: arial;
+    }
+h2
+    {
+    color: rgb(207, 193, 193);
+    color: orange;
+    font-size: 20px;
+    font-family: oblique;     
+    }
+/* mensaje de bienvedida */
+.bienvenida
+    {
+     position: relative;
+     font-size: 50px;
+     top: 0;
+     color: orange;
+
+    }
+
+ .pse {
+    position: relative; 
+    height:  200px;
+     width: 200px;
+     top: 50px;
+     left: 1px;
+     background-image: linear-gradient(rgba(243, 243, 247, 0.925),rgba(135, 137, 138, 0.767));
+ }

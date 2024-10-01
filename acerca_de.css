@@ -1,0 +1,40 @@
+html,body   
+    {
+    background-image: linear-gradient(rgba(10, 3, 112, 0.925),rgba(12, 185, 228, 0.767));
+     text-align: center;
+    }
+/* titulo */
+h1
+    {
+     font-size:40px ;
+     font-family:algerian;
+     font-weight: bold;
+     color: rgb(238, 101, 10);
+    }
+/* informacion */
+p
+    {
+     font-size:30px ;
+     font-family:arial;
+     color: aliceblue;
+    }
+/* imagenes */
+img.justin,.sebas,.leo
+    {
+     height:10% ;
+     width:10% ;
+    }
+.volver
+    {
+     position: absolute;
+     top: 0;
+     left: 0;
+     padding: 0;
+     font-size: 30px;
+     background-color: rgb(93, 255, 179);
+     color: black;
+    }
+.volver:hover
+    {
+    color: red;
+    }
